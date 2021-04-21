@@ -1,0 +1,99 @@
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  font-family: 'Raleway', sans-serif;
+}
+
+.grid-container-ommig {
+  display: grid;
+  grid-template-columns: 8% 1fr 1fr 8%;
+  grid-template-rows:  0.1fr 0.3fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+	". bread2 bread2 ."
+    ". title title ."
+    ". img1 ommig1 ."
+    ". ommig2 img2 ."
+    ". video video .";
+}
+
+
+.bread2 {
+  grid-area: bread2; 
+}
+
+.title {
+	grid-area: title;
+	position: relative;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.img1 {
+	grid-area: img1;
+
+}
+
+.img2 {
+	grid-area: img2;
+}
+
+/*.billede {
+  width: 100%;
+}*/
+.ommig1 {
+	grid-area: ommig1;
+   width: auto;
+	margin-top: 20px;
+	margin-left: 20px; 
+}
+
+.ommig2 {
+	grid-area: ommig2;
+  width: auto;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.video {
+	grid-area: video;
+  height: 300px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+.grid-container-ommig {
+  display: grid;
+  grid-template-columns: 8%fr 1fr  8%fr;
+  grid-template-rows: 0.1fr 0.3fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+  	". bread ."
+    ". title ."
+    ". img1 ."
+    ". ommig1 ."
+    ". img2 ."
+    ". ommig2 ."
+    ". video .";
+}
+}

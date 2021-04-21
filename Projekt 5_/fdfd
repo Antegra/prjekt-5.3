@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/39b47aba66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- Header Start -->
+   <header class="site-header">
+    <div class="wrapper site-header__wrapper">
+      <a href="#" class="brand">Den <br> Fynske <br>Trædrejer</a>
+      <nav class="nav">
+        <ul class="nav__wrapper">
+          <li class="nav__item"><a href="produkter.html">Produkter</a></li>
+          <li class="nav__item"><a href="about">Om mig</a></li>
+          <li class="nav__item"><a href="#">Kontakt</a></li>
+          <li class="nav__item"><a href="#">Indkøbskurv</a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Slideshow-->
+  <script
+  type="text/javascript"
+  defer
+  src="slideshow.js"
+></script>
+
+<img name="slide" width="700" height="auto" class="slideshow"/>
+<a href="produkter.html"><h1 id="shop">Køb nu</h1></a></img>
+
+<!--About-->
+<div class="grid-container">
+  <div class="image_per">
+  
+  </div>
+  <div class="per_text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      Rerum maxime consectetur amet numquam nihil dignissimos.
+       Quo recusandae laudantium veritatis obcaecati reprehenderit a reiciendis voluptatem! 
+       Similique, tempora. Architecto recusandae placeat hic?</p>
+  </div>
+  <div class="Map"></div>
+  <div class="find_way"></div>
+</div>
+<!--Footer-->
+  
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/39b47aba66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- Header Start -->
+   <header class="site-header">
+    <div class="wrapper site-header__wrapper">
+      <a href="#" class="brand">Den <br> Fynske <br>Trædrejer</a>
+      <nav class="nav">
+        <ul class="nav__wrapper">
+          <li class="nav__item"><a href="produkter.html">Produkter</a></li>
+          <li class="nav__item"><a href="about">Om mig</a></li>
+          <li class="nav__item"><a href="#">Kontakt</a></li>
+          <li class="nav__item"><a href="#">Indkøbskurv</a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Slideshow-->
+  <script
+  type="text/javascript"
+  defer
+  src="slideshow.js"
+></script>
+
+<img name="slide" width="700" height="auto" class="slideshow"/>
+<a href="produkter.html"><h1 id="shop">Køb nu</h1></a></img>
+
+<!--About-->
+<div class="grid-container">
+  <div class="about">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Assumenda ab mollitia maxime temporibus praesentium laborum.
+  Animi dolores quod, et numquam quisquam voluptas voluptates expedita,
+  cum illum illo culpa sequi officia.
+</div>
+  <div class="image_per">
+    <img src="img/per.jpeg" alt="per_potraet" height="300px" width="375px">
+   </div>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2255.9553558758566!2d10.077181315691247!3d55.56797601369939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cee7dc6748d07%3A0x352baf545e5baa44!2sDen%20Fynske%20Tr%C3%A6drejer%20v%2FPer%20Froholdt!5e0!3m2!1sen!2sdk!4v1618493606076!5m2!1sen!2sdk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   
+    
+  </div>
+  <div class="find_way">
+    <p>besøg mig i min butik og mit værksted</p>
+  <a href="https://goo.gl/maps/VXsZ4Y9dpm5ktXJ37" target="_blank"><p id="wayfinder"><i class="fas fa-map-marker"></i>find vej</p> </a>
+  </div>
+<!--Footer-->
+  
+
+</body>
+</html>

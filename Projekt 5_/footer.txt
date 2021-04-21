@@ -1,0 +1,61 @@
+Tilføj til head
+
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
+Tilføj i bunden
+
+<footer>
+    <div class="grid-container-footer">
+      <div class="footer-tekst-1">
+        <p>
+      
+
+          Vestre Havnevej 23, 5400 Bogense
+         <br>
+         per@froholdt.dk
+         <br>
+         (+45) - 28 74 11 30
+
+        </p>
+      </div>
+     <div class="footer-tekst-2">
+       <p>FORSENDELSE
+        <br>
+
+        Pakken fremsendes med GLS - Porto er indbefattet i generelle omkostninger.
+        <br>
+        <br>
+        RETURNERINGS POLITIK
+        
+        <br>
+        Evt. tilbagesendelse er portofri ved brug af teksten RETUR TIL  AFSENDER.
+      </p>
+     </div>
+     
+    </div>
+
+  </footer>
+
+
+p {
+font-family: 'raleway', sans-serif;
+
+} 
+ 
+footer {
+background-color: #257aaf;
+vertical-align: center;
+}
+
+.grid-container-footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". footer-tekst-1 footer-tekst-2 .";
+}
+.footer-tekst-1 { grid-area: footer-tekst-1; }
+.footer-tekst-2 { grid-area: footer-tekst-2; }
